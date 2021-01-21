@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Immune Chat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="easyrtc.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+        
+</head>
+  <body>
+    
+    <div class="modal">
+      <div class="login-modal">
+		  <h3>Login</h3>
+		  <ul class="form">
+		    <li class="textbox">
+		      <input type="text" id="username" name="username" required />
+		      <label for="username">
+		        <span class="lbl">username</span>
+		      </label>
+		    </li>
+		  </ul>
+		  <button id="connect-btn">Submit</button>
+		</div>
+    </div>
+
+    <ul class="chat-thread" id="conversation">
+	<li>Welcome to Immune Chat</li>
+</ul>
+
+<form class="chat-window">
+	<input class="chat-window-message" id="chat-window-message" name="chat-window-message" type="text" placeholder="Type Message Here" autocomplete="off" autofocus />
+</form>
+
+  </body>
+</html>
+
+</body>
+</html>

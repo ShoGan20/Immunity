@@ -1,0 +1,21 @@
+{
+  "name": "immunity",
+  "version": "0.1.6",
+  "author": "AlwaysHungrie",
+  "description": "Anonymous Chat, no liability",
+  "private": true,
+  "scripts": {
+    "start": "npm run server",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "easyrtc": "^1.1.0",
+    "express": "^4.10.7",
+    "serve-static": "^1.8.0",
+    "socket.io": "^1.4.5"
+  },
+  "license": "BSD2",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
